@@ -1,0 +1,20 @@
+1.create a html document Writing into the browser console
+2.create a html document Writing into an alert dialog box
+3.create a html document Writing into the browser window
+4.create a html document Problem with document.write() method
+5.create a html document Writing into an HTML element.
+6.write a JavaScript if statement
+7.write a JavaScript if...else statement
+8.write a JavaScript if...elseif...else statement
+9.write a JavaScript switch...case statement
+11.write a Combine multiple cases in a switch case statement.
+12.Define and call a function in JavaScript
+13.Add parameters to a function
+14.Pass arguments to a function
+15.Return a value from a function
+16.Return multiple values from a function
+17.JavaScript function expression
+18.Assign a function to a variable
+19.JavaScript function declaration vs function expression
+20.write JavaScript code for local variable
+21.write JavaScript code for  global variable

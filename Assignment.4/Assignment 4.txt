@@ -1,0 +1,31 @@
+Arrays;
+-------
+1.write a javscript code Add a new element at the end of an array
+2.Add a new element at the beginning of an array
+3.write a javscript code Add multiple elements to an array at once
+4.Remove the last element from an array
+5.Remove the first element from an array
+6.write a javscript code Add or remove array elements at any index
+7.Join all elements of an array into a string
+8.Extract out a portion of an array
+9.write a javscript code Extract all elements from an array beyond specific index
+10.Merge two arrays together into a single array
+11.write a javscript code  Merge multiple arrays into a single array
+12.Search an array for a specific value
+13.write a javscript code  Search an array for a specific value beyond certain index
+14.Find whether an array includes a certain value
+15.write a javscript code  Search an array based on certain condition
+16.Search an array based on certain condition and find index
+17.write a javscript code Filter an array in JavaScript
+
+objects:
+==========
+1.write a javscript code  Creating objects in JavaScript
+2.Quoting property names of an object
+3.write a javscript code  Get properties values of an object
+4.write a javscript code  Access properties of an object using bracket notation
+5.Dynamically access object properties using variables
+6..write a javscript code  Loop through an object in JavaScript
+7.write a javscript code  Set the properties of an object
+8.Remove properties from an object
+9.write a javscript code  Call the methods of an object

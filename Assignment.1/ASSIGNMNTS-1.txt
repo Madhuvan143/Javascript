@@ -1,0 +1,11 @@
+1.Write a javascript "Hello world " application.
+2.Write a JavaScript "Hello World!" application
+3. Write aEmbedding JavaScript code in an HTML file
+4.Write a Calling an external JavaScript file in a HTML document
+5.Write a javascript code Insert JavaScript code inside HTML tag
+6.Write a javascript Case sensitivity in JavaScript
+7.Write a JavaScript Single line comments
+8.Write a JavaScript Multi line comments
+9.Write a javascript Creating variables in JavaScript
+10.Write a javascript Declaring variables in JavaScript
+11.Write a javascript Declaring multiple variables in at once JavaScript

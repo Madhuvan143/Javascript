@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        //by simple concatination
+        var arr1 = [12,32,12];
+        var arr2 = [23,424,24];
+        var arr3 = arr1.concat(arr2);
+        console.log(arr3);
+        //spread operator
+        var arr1 = [23,43,23];
+        var arr2 = [6,63,2];
+        var arr3 = [...arr1,...arr2];
+        console.log(arr3);
+        //by push method
+        var arr1 = [23,43,23];
+        arr1.push(23,24,43)
+        console.log(arr1);
+    </script>
+</body>
+</html>

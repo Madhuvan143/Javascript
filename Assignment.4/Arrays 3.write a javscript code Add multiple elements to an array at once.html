@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //by push method
+        var x = ["x","xx","xxx"];
+        x.push("s","l","xl");
+        console.log(x);
+        //by using push method
+        var a = [12,32,43];
+        var b = [3,453,53];
+        a.push(...b);
+        console.log(a);
+        //by using spread operator
+        var movies = ['red','white','orange'];
+        var reviews = ['dark','light','dark'];
+        var result = [...reviews,...movies];
+        console.log(result);
+
+    </script>
+</body>
+</html>

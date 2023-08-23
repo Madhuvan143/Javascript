@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Conditional Statement</p>
+    <script>
+        //if statement
+        var age1= 34;
+        var age2= 32;
+        if(age1>age2){
+            document.write("age1 is greater than age2","<br>")
+        }
+        var time= new Date().getHours();
+        var ele;
+        if(time<10){
+            ele = "Good Morning";
+        }
+        else{
+            ele = "Good day";
+        }
+        document.write(ele,"<br>");
+        var signal = "red";
+        if(signal=="green"){
+            document.write("i am green")
+        }
+        else if(signal=="black"){
+            document.write("i am black")
+        }
+        else if(signal=="RED"){
+            document.write("i am red")
+        }
+        else if(signal=="white"){
+            document.write("i am white")
+        }
+        else if(signal=="grey"){
+            document.write("i am grey")
+        }
+        else{
+            document.write("no color is red here","<br>")
+        }
+
+        let day;
+        switch(new Date().getDay()){
+            case 0 :
+            day = "Sunday";
+            break;
+            case 1 :
+            day = "Monday";
+            break;
+            case 2 :
+            day = "Tuesday";
+            break;
+            case 3 :
+            day = "Wednesday";
+            break;
+            case 4 :
+            day = "Thursday";
+            break;
+            case 5 :
+            day = "Friday";
+            break;
+            case 6 :
+            day = "Saturday";
+            break;
+        }
+        document.write(day);
+
+    </script>
+</body>
+</html>

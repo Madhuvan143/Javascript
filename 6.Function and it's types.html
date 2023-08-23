@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>This is Javascript</h1>
+
+    <script>
+   //function is block of code designed to perform a particular task
+        //=====Named function=======
+        //general
+        function display(){
+            document.write("Welcome to Functions" + "<br>");
+        }
+        display();
+        //sum
+        function sum(n1,n2){
+            document.write("Sum of 2 numbers: " + n1 + n2 + "<br>"); // it simply adds the number beside it
+        }
+        sum(34,54);
+        function sumOfTwoNumbers(n1,n2){
+            var result = n1 + n2;
+            document.write("Sum of Two Numbers: " + result + "<br>") // by using variables tag we can add 
+        }
+        sumOfTwoNumbers(23,76);
+        function add(n1,n2){
+            var sum = n1 + n2;
+            return sum; //by using return tag;;;;;;
+        }
+        document.write("sum of 2 numbers: " + add(34,24) + "<br>")
+
+        //=====function experssion=======
+
+        function car(){
+            var name = "Audi";
+            var wheels = 4;
+            document.write(name + " " + wheels + "<br>");
+        } 
+        car();
+        // function expression can be stored in a variable
+        var finalCar = function car(){
+            var name = "Honda";
+            var wheels = 4;
+            document.write(name + " " + wheels + "<br>");
+        }
+        finalCar();
+
+        //IIFE--- Immediate invoked function experssion
+
+        var dot = function mutiplication(x,y){
+            var result = x * y;
+            return result;
+        }(34,2)
+        document.write("Multiplication of 2 numbers: " + dot + "<br>");
+
+        //ES6---- Arrow function
+
+        let x = (x,y) => x * y;
+        document.write("Multiplication of numbers: " + x(23,2) + "<br>");
+
+    </script>
+</body>
+</html>

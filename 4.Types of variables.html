@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>This is JAvascript</h1>
+
+    <script>
+      let x= 30; //global variable
+      function one(){
+        let y=100; //local variable
+        document.write(x + "<br>");
+        document.write(x + y + "<br>");
+      }
+     
+      function two(){
+        let y=150;
+        document.write(x + "<br>");
+        document.write(x + y + "<br>");
+      }
+      one();
+      two();
+    </script>
+</body>
+</html>

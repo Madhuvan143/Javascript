@@ -1,0 +1,34 @@
+loops;
+------
+
+1.write JavaScript while loop
+2.write JavaScript do...while loop
+3.write JavaScript for loop
+
+Strings:
+--------
+1.Creating strings in JavaScript
+2.Using quotes inside a string
+3.Escaping quotes inside a string
+4.Using escape sequences
+5.Get the length of a string
+6.Find the position a substring within a string
+7.Find the position of last occurrence of a substring within a string
+8.Search text or pattern inside a string
+9.Slice out a portion of a string
+10.Replace part of string with another string
+11.Convert a string to uppercase characters
+12.Convert a string to lowercase characters
+13.Join two or more strings
+14.Split a string into an array
+15.Split a string into an array of characters
+
+Arrays:
+-------
+
+16.Creating arrays in JavaScript
+17.Access individual elements of an array
+18.Get the length of an array
+19.Loop through an array using for loop
+20.Loop through an array using for of loop
+21.Loop through an array using for in loop
